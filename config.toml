@@ -1,0 +1,396 @@
+site_id = "gt"
+title = "Go and talk"
+baseurl = "https://online-showroom.github.io"
+copyright = "Copyright 2019, GoAndMake.app."
+
+[menu]
+
+  [[menu.global]]
+  url = "/about/"
+  name = "About"
+  menu = "global"
+  identifier = ""
+  pre = ""
+  post = ""
+  weight = 0.0
+  parent = ""
+
+  [[menu.global]]
+  url = "/product/"
+  name = "All Products"
+  menu = "global"
+  identifier = ""
+  pre = ""
+  post = ""
+  weight = 0.0
+  parent = ""
+
+  [[menu.global]]
+  url = "/popular/"
+  name = "Most Popular"
+  menu = "global"
+  identifier = ""
+  pre = ""
+  post = ""
+  weight = 0.0
+  parent = ""
+
+  [[menu.global]]
+  url = "/new/"
+  name = "New"
+  menu = "global"
+  identifier = ""
+  pre = ""
+  post = ""
+  weight = 0.0
+  parent = ""
+
+  [[menu.iconmenu]]
+  url = "#"
+  menu = "iconmenu"
+  identifier = ""
+  pre = "Facebook"
+  post = ""
+  weight = 0.0
+  parent = ""
+
+[params]
+absolutebuilderurl = true
+accent_color = "hsl(165,35%,45%)"
+accent_color_light = "hsl(165,35%,65%)"
+css_url = "https://fonts.googleapis.com/css?family=Gloria+Hallelujah"
+custom_css = ".handwriting {\n  font-family: 'Gloria Hallelujah', cursive;\n}"
+gh_repo_image = [
+  "images/13.jpg",
+  "images/14.jpg",
+  "images/15.jpg",
+  "images/16.jpg",
+  "images/17.jpg",
+  "images/augmented-reality-1853592_640.jpg"
+]
+gh_repo_name = "online-showroom.github.io"
+gh_repo_owner = "online-showroom"
+gt_theme_name = "Showroom"
+lightness = 45.0
+lightness_dark = 20.0
+lightness_light = 65.0
+lightness_lighter = 80.0
+logo_url = "/images/logos/icon-on-dark.svg"
+mainSections = [
+  "product"
+]
+mainsections = [
+  "product"
+]
+primary_hue = 350.0
+saturation = 43.0
+skip_cover_nav = false
+main_menu_align = "start"
+gt_license_name = "CC-BY-NC-4.0"
+gt_license_url = "https://creativecommons.org/licenses/by-nc/4.0/"
+
+  [params.global_section]
+
+    [params.global_section.all_category]
+    column_class = "w-25-l"
+    content = ""
+    data_key = "all_category"
+    description = "  "
+    horizontal_position = "justify-center"
+    images_border = "bn"
+    images_border_color = "b--inherit"
+    images_class = "br0"
+    images_padding = "pa0"
+    intro = " "
+    is_global = true
+    partial = "goandtalk/slides/collection-card"
+    resize_column = "flex-auto"
+    title = "All Products"
+
+      [params.global_section.all_category.appearance]
+      card_background = "hover-primary-color"
+      section_background = "bg-white-90"
+      slide_animation = "fadeIn"
+
+      [[params.global_section.all_category.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "Phone Cover"
+      sub_title = "Film and Case"
+      description = "[Details](/product/phone-cover)"
+
+      [[params.global_section.all_category.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "Category 2"
+
+      [[params.global_section.all_category.column]]
+      image_source = "https://online-showroom.github.io/images/15.jpg"
+      title = "Category 3"
+
+      [[params.global_section.all_category.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "Category 4"
+
+      [[params.global_section.all_category.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "Category 5"
+
+      [[params.global_section.all_category.column]]
+      image_source = "https://online-showroom.github.io/images/16.jpg"
+      title = "Category 6"
+
+      [[params.global_section.all_category.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "Category 7"
+
+      [[params.global_section.all_category.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "Category 8"
+
+    [params.global_section.collection_card]
+    column_class = "w-25-l"
+    content = ""
+    description = "  "
+    horizontal_position = "justify-center"
+    images_border = "bn"
+    images_border_color = "b--inherit"
+    images_class = "br0"
+    images_padding = "pa0"
+    intro = " "
+    is_global = true
+    partial = "goandtalk/slides/collection-card"
+    resize_column = "flex-auto"
+    title = "Film and Protective Covers"
+
+      [params.global_section.collection_card.appearance]
+      card_background = "hover-primary-color"
+      section_background = "bg-white-90"
+      slide_animation = "fadeIn"
+
+      [[params.global_section.collection_card.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "iphone 8"
+
+      [[params.global_section.collection_card.column]]
+      image_source = "https://online-showroom.github.io/images/16.jpg"
+      title = "iphone 8 plus"
+
+      [[params.global_section.collection_card.column]]
+      image_source = "https://online-showroom.github.io/images/15.jpg"
+      title = "iphone x"
+
+      [[params.global_section.collection_card.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "iphone se"
+
+      [[params.global_section.collection_card.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "iPad"
+
+      [[params.global_section.collection_card.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "iPad Pro"
+
+      [[params.global_section.collection_card.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "Android"
+
+      [[params.global_section.collection_card.column]]
+      image_source = "https://online-showroom.github.io/images/15.jpg"
+      title = "Others"
+
+    [params.global_section.phone_cover]
+    column_class = "w-25-l"
+    content = ""
+    data_key = "phone_cover"
+    description = "  "
+    horizontal_position = "justify-center"
+    images_border = "bn"
+    images_border_color = "b--inherit"
+    images_class = "br0"
+    images_padding = "pa0"
+    intro = " "
+    is_global = true
+    partial = "goandtalk/slides/collection-card"
+    resize_column = "flex-auto"
+    title = "Film and Protective Covers"
+
+      [params.global_section.phone_cover.appearance]
+      card_background = "hover-primary-color"
+      section_background = "bg-white-90"
+      slide_animation = "fadeIn"
+
+      [[params.global_section.phone_cover.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "iphone 8"
+
+      [[params.global_section.phone_cover.column]]
+      image_source = "https://online-showroom.github.io/images/16.jpg"
+      title = "iphone 8 plus"
+
+      [[params.global_section.phone_cover.column]]
+      image_source = "https://online-showroom.github.io/images/15.jpg"
+      title = "iphone x"
+      description = "[Details](/product/phone-cover/iphone-x/)"
+
+      [[params.global_section.phone_cover.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "iphone se"
+
+      [[params.global_section.phone_cover.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "iPad"
+
+      [[params.global_section.phone_cover.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "iPad Pro"
+
+      [[params.global_section.phone_cover.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "Android"
+
+      [[params.global_section.phone_cover.column]]
+      image_source = "https://online-showroom.github.io/images/15.jpg"
+      title = "Others"
+
+    [params.global_section.phone_covers]
+    column_class = "w-25-l"
+    content = ""
+    data_key = "phone_covers"
+    description = "  "
+    horizontal_position = "justify-center"
+    images_border = "bn"
+    images_border_color = "b--inherit"
+    images_class = "br0"
+    images_padding = "pa0"
+    intro = " "
+    is_global = true
+    partial = "goandtalk/slides/collection-card"
+    resize_column = "flex-auto"
+    title = "Film and Protective Covers"
+
+      [params.global_section.phone_covers.appearance]
+      card_background = "hover-primary-color"
+      section_background = "bg-white-90"
+      slide_animation = "fadeIn"
+
+      [[params.global_section.phone_covers.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "iphone 8"
+
+      [[params.global_section.phone_covers.column]]
+      image_source = "https://online-showroom.github.io/images/16.jpg"
+      title = "iphone 8 plus"
+
+      [[params.global_section.phone_covers.column]]
+      image_source = "https://online-showroom.github.io/images/15.jpg"
+      title = "iphone x"
+
+      [[params.global_section.phone_covers.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "iphone se"
+
+      [[params.global_section.phone_covers.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "iPad"
+
+      [[params.global_section.phone_covers.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "iPad Pro"
+
+      [[params.global_section.phone_covers.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "Android"
+
+      [[params.global_section.phone_covers.column]]
+      image_source = "https://online-showroom.github.io/images/15.jpg"
+      title = "Others"
+
+    [params.global_section.product_category]
+    column_class = "w-25-l"
+    content = ""
+    data_key = "product_category"
+    description = "  "
+    horizontal_position = "justify-center"
+    images_border = "bn"
+    images_border_color = "b--inherit"
+    images_class = "br0"
+    images_padding = "pa0"
+    intro = " "
+    is_global = true
+    partial = "goandtalk/slides/collection-card"
+    resize_column = "flex-auto"
+    title = "Products"
+
+      [params.global_section.product_category.appearance]
+      card_background = "hover-primary-color"
+      section_background = "bg-white-90"
+      slide_animation = "fadeIn"
+
+      [[params.global_section.product_category.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "Category 1"
+
+      [[params.global_section.product_category.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "Category 2"
+
+      [[params.global_section.product_category.column]]
+      image_source = "https://online-showroom.github.io/images/15.jpg"
+      title = "Category 3"
+
+      [[params.global_section.product_category.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "Category 4"
+
+      [[params.global_section.product_category.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "Category 5"
+
+      [[params.global_section.product_category.column]]
+      image_source = "https://online-showroom.github.io/images/16.jpg"
+      title = "Category 6"
+
+      [[params.global_section.product_category.column]]
+      image_source = "https://online-showroom.github.io/images/13.jpg"
+      title = "Category 7"
+
+      [[params.global_section.product_category.column]]
+      image_source = "https://online-showroom.github.io/images/14.jpg"
+      title = "Category 8"
+
+    [params.global_section.default_footer]
+    copyright = " Copyright 2019. All rights reserved. "
+    is_global = true
+    partial = "goandtalk/footer/default_footer"
+
+      [params.global_section.default_footer.menu]
+
+        [[params.global_section.default_footer.menu.footer_nav]]
+        url = "/"
+        name = "Home"
+
+        [[params.global_section.default_footer.menu.footer_legal]]
+        url = "/terms-and-conditions/"
+        name = "Terms and Conditions"
+
+        [[params.global_section.default_footer.menu.footer_legal]]
+        url = "/privacy/"
+        name = "Privacy"
+
+      [params.global_section.default_footer.appearance]
+      section_background = "bg-black-80"
+      text_color = "white-80"
+      nav_link_color = "link-gold"
+      legal_link_color = "link-white-80"
+
+  [params.js_export]
+
+  [params.js_partial]
+
+  [[params.mobile_menu_button]]
+  label = "Menu"
+  menu = "global"
+
+  [[params.mobile_menu_button]]
+  label = "Account"
+  menu = "iconmenu"
